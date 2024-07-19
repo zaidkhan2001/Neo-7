@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import CustomNavbar from '../Components/navbar';
 import Footer from '../Components/footer';
 import CardComponent from '../Components/card';
 
@@ -99,7 +98,6 @@ const Product = () => {
   ];
   return (
     <div>
-      <CustomNavbar />
       <Container>
         <Row className="d-flex justify-content-center">
           {cardData.map((card, index) => (
