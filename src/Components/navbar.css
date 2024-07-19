@@ -1,0 +1,18 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+    padding-left: 30px; /* Adjust padding to move logo more to the left */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Border color and thickness */
+  }
+  
+  .navbar-brand {
+    margin-right: 60px; /* Space between logo and navbar items */
+  }
+  
+  .nav-link {
+    margin: 0 25px; /* Add spaces between tabs */
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+  }
+  
+  .nav-link:hover {
+    color: #00c3ff; /* Change color on hover */
+  }

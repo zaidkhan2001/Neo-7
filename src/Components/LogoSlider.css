@@ -1,0 +1,17 @@
+.logo-slider {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0; /* Add padding to the top and bottom */
+  }
+  
+  .logo-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-slide img {
+    width: 100px; /* Adjust based on your logo sizes */
+    height: auto;
+  }
+  
