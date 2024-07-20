@@ -1,7 +1,7 @@
 .logo-slider {
     width: 100%;
     overflow: hidden;
-    padding: 20px 0; /* Add padding to the top and bottom */
+    padding: 20px 10px; /* Add padding to the top and bottom */
   }
   
   .logo-slide {

@@ -3,11 +3,12 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './LogoSlider.css';  // Custom CSS for additional styling
+import TextContainer from './textcontainer';
 
 const LogoSlider = () => {
     const settings = {
       infinite: true,
-      speed: 2000,
+      speed: 4000,
       slidesToShow: 5, // Adjust based on the number of logos visible at once
       slidesToScroll: 1,
       autoplay: true,
@@ -18,16 +19,17 @@ const LogoSlider = () => {
   
     const logos = [
       // Array of logo URLs or paths
-      'logo1.png',
-      'logo2.png',
-      'logo3.png',
-      'logo4.png',
-      'logo5.png',
-      'logo6.png',
+      'Assets/Logo1.png',
+      'Assets/Logo2.png',
+      'Assets/Logo3.png',
+      'Assets/Logo4.jpg',
+      'Assets/Logo5.jpg',
       // Add more logos as needed
     ];
   
     return (
+      <div>
+      <TextContainer text="Our Certifications"/>
       <div className="logo-slider">
         <Slider {...settings}>
           {logos.map((logo, index) => (
@@ -36,6 +38,7 @@ const LogoSlider = () => {
             </div>
           ))}
         </Slider>
+      </div>
       </div>
     );
   };
