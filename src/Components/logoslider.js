@@ -29,7 +29,7 @@ const LogoSlider = () => {
   
     return (
       <div>
-      <TextContainer text="Our Certifications"/>
+      <TextContainer text1="Our Certifications" />
       <div className="logo-slider">
         <Slider {...settings}>
           {logos.map((logo, index) => (
